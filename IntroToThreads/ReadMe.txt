@@ -1,4 +1,5 @@
-﻿(I) =>  
+﻿♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠
+(I) =>  
 Declaration vs Definition in C# :
 		I couldnt find a firm distinction between the 2 in C# , except that one:
 		https://www.tutorialspoint.com/What-is-the-difference-between-declaration-and-definition-in-Chash :
@@ -13,6 +14,17 @@ Declaration vs Definition in C# :
 (II) => What is a callback Function :
 				A function pointer that is being passed as an argument to another function..
 				And then it is expected to call back that function at some point in time!
+
+
+
+
+
+
+♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠♥♦♣♠
+(III) => Join method of Thread class :
+		join method blocks the current thread and makes it wait until the child thread on which the join method was 
+		invoked completes its execution.
+
 
 
 

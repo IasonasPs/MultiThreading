@@ -5,6 +5,9 @@ using System.Text;
 using IntroToThreads.PassDataSafely;
 using IntroToThreads.RetrieveDataFromThreadFunction;
 using HWND = System.IntPtr;
+using IntroToThreads.JoinMethod;
+using IntroToThreads.ThreadSynchronization;
+using System.Xml.Linq;
 
 
 namespace IntroToThreads
@@ -13,13 +16,19 @@ namespace IntroToThreads
     {
         public static void Main(string[] args)
         {
+            #region Main methods:
             //ThreadClass.ThreadMain();
             //PassDataWithSafety.PassDataSafely();
-
-            RetrieveData.RetrieveMain();
+            //RetrieveData.RetrieveMain();
+            //ThreadWithoutJoin.ThreadJoinMain();
+            //ThreadJoin.ThreadJoinMain();
+            ΤhreadSyncProgram.ThreadSyncMain();
+            #endregion
         }
 
-        
+        public static  void Test( [Optional, DefaultParameterValue(2)] object y)
+        {
+        }
     }
 }
 
