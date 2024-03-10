@@ -56,6 +56,5 @@ namespace IntroToThreads.ThreadSynchronization
     //While both can be used to ensure thread safety, it is recommended to avoid
     //using the current instance('this') and the reason is that lock(this) exposes the lock
     //to the outside world,making it accessible and potentially leading to deadlocks..
-
     //In conclusion lockObject is private and "this" is not!  ?
 }

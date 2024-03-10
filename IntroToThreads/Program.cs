@@ -18,11 +18,13 @@ namespace IntroToThreads
         {
             #region Main methods:
             //ThreadClass.ThreadMain();
+            PassData_Unsafe_.PassDataUnsafely();
             //PassDataWithSafety.PassDataSafely();
             //RetrieveData.RetrieveMain();
             //ThreadWithoutJoin.ThreadJoinMain();
             //ThreadJoin.ThreadJoinMain();
-            ΤhreadSyncProgram.ThreadSyncMain();
+            //ΤhreadSyncProgram.ThreadSyncMain();
+            IntroToMonitor.MonitorMain();
             #endregion
         }
 
