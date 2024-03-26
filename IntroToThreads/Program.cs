@@ -17,20 +17,47 @@ namespace IntroToThreads
         public static void Main(string[] args)
         {
             #region Main methods:
-            //ThreadClass.ThreadMain();
-            PassData_Unsafe_.PassDataUnsafely();
-            //PassDataWithSafety.PassDataSafely();
-            //RetrieveData.RetrieveMain();
-            //ThreadWithoutJoin.ThreadJoinMain();
-            //ThreadJoin.ThreadJoinMain();
-            //ΤhreadSyncProgram.ThreadSyncMain();
+            //ThreadClass.ThreadMain();              //000
+            //PassData_Unsafe_.PassDataUnsafely();    //001
+            //PassDataWithSafety.PassDataSafely();     //002
+            //RetrieveData.RetrieveMain();              //003
+            //ThreadWithoutJoin.ThreadJoinMain();        //004
+            //ThreadJoin.ThreadJoinMain();                //005
+            //ΤhreadSyncProgram.ThreadSyncMain();          //006
             IntroToMonitor.MonitorMain();
+
+
             #endregion
         }
 
-        public static  void Test( [Optional, DefaultParameterValue(2)] object y)
+        public static void Test([Optional, DefaultParameterValue(2)] object y)
         {
         }
+
+        //public static void Print()
+        //{
+        //    StringBuilder odd = new StringBuilder();
+        //    StringBuilder even = new StringBuilder();
+
+        //    for (int i = 0 ; i < 500 ; i++)
+        //    {
+        //        if (i%2 != 0) //ODD
+        //        {
+        //            odd.Append(i.ToString()+",");
+        //        }
+        //        else //EVEN
+        //        {
+        //            even.Append(i.ToString()+",");
+        //        }
+        //        Console.Clear();
+        //        Console.Write("Odd Numbers : "+odd);
+        //        Console.Write("Even NUmbers : "+even);
+        //        Thread.Sleep(100);   
+        //    }
+        //}
+
+
+
     }
 }
 
